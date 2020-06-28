@@ -21,6 +21,7 @@ The project is created with:
 * scipy version: 1.4.1
 * matplotlib version: 3.2.1
 * seaborn version: 0.10.1
+
 and various other libraries included in the requirements.txt file.
 
 ## Setup
