@@ -31,10 +31,12 @@ $ pip install -r requirements.txt
 ```
 
 To train the model, run all the cells.
-To make a prediction, in a new cell, enter
+To make a prediction, call the categorise function with the plot of a movie without newlines like so:
+
 ```
-categorise(<movie_plot>)
+categorise("<movie_plot>")
 ```
+
 The likelihood of each genre will be printed with the genres that have a higher than 50% likelihood of being correct returned as a list.
 
 ## Future Developments
